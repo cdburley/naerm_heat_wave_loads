@@ -14,9 +14,15 @@ The output of this processing is stored in the [data](data/) directory with the 
 Any use of this data in a publication, presentation, or report should use the following citations. Please contact 
 Casey Burleyson (casey.burleyson@pnnl.gov) prior to any reuse of the data.
 >
-**Citation for the TELL model**
+**Citation for the TELL Model**
+>
 McGrath et al., (2022). tell: a Python package to model future total electricity loads in the United States. Journal of Open Source Software, 7(79), 4472, https://doi.org/10.21105/joss.04472
-
+> 
+**Citation for the Weather Data**
+>
+Burleyson, C., Thurber, T., & Vernon, C. (2023). Projections of Hourly Meteorology by Balancing Authority Based on the IM3/HyperFACETS Thermodynamic Global Warming (TGW) Simulations (v1.0.0) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/1960530
+>
+Jones, A. D., Rastogi, D., Vahmani, P., Stansfield, A., Reed, K., Thurber, T., Ullrich, P., & Rice, J. S. (2022). IM3/HyperFACETS Thermodynamic Global Warming (TGW) Simulation Datasets (v1.0.0) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/1885756
 
 ## Notes
 1) Loads in CISO, IPCO, NEVP, and PACE are modeled as a whole in TELL but are separated in GridView. To create the data
