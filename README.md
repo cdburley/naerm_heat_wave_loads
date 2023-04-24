@@ -30,7 +30,7 @@ for these BAs I used the whole load simulated by TELL and distributed it to the 
 annual total load in each subregion to portion out the TELL loads.
 2) Three BAs in GridView have zero loads for the year: TH Malin, TH Mead, and TH PV. They are not 
 simulated by TELL. I left these in as zero values in the output file.
-3) Three BAs in GridView are outside the CONUS and are not represented in TELL: AESO, BCHA, and CFE. I left in 
+3) Three BAs in GridView are outside the United States and are not represented in TELL: AESO, BCHA, and CFE. I left in 
 their original 8760-hr load profiles from the 2021 data.
 
 ## BAs in the WECC 
