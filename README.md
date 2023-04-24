@@ -1,19 +1,22 @@
 # naerm_heat_wave_loads
 This repository houses the raw data and processing scripts to create the hourly load time series by 
-Balancing Authority based on the 2018 weather year loads. Data are be scaled to match the 2021 total loads data shared 
-by Jason Hou on 19-April. The 2018 weather year loads are based on the Total ELectricity Loads (TELL) model.
+Balancing Authority based on the 2018 weather year loads. Data are scaled to match the 2021 total loads data shared 
+by Jason Hou on 19-April 2023. The 2018 weather year loads are based on the Total ELectricity Loads (TELL) model.
+
+## Input Files
+The input data needed to recreate this process is stored in the [data](data/) directory.
 
 ## Output File
-The output of this process is stored in the [data](data/) directory with the filename 
+The output of this processing is stored in the [data](data/) directory with the filename 
 "TELL_Loads_2021_Based_on_2018_Weather.csv".
 
 ## Notes
 1) Loads in CISO, IPCO, NEVP, and PACE are modeled as a whole in TELL but are separated in GridView. To create the data
 for these BAs I used the whole load simulated by TELL and distributed it to the subregions within the BA using the 
-annual total load in each subregion to distribute the TELL loads.
+annual total load in each subregion to portion out the TELL loads.
 2) Three BAs in GridView have zero loads for the year: "TH_Malin", "TH_Mead", and "TH_PV". They are not 
 simulated by TELL. I left these in as zero values in the output file.
-3) Three BAs in GridView are outside the CONUS and are thus not represented in TELL: AESO, BCHA, and CFE. I left in 
+3) Three BAs in GridView are outside the CONUS and are not represented in TELL: AESO, BCHA, and CFE. I left in 
 their original 8760-hr load profiles from the 2021 data.
 
 ## BAs in the WECC 
