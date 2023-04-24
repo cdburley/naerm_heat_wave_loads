@@ -10,6 +10,13 @@ The input data needed to recreate this process is stored in the [data](data/) di
 The output of this processing is stored in the [data](data/) directory with the filename 
 "TELL_Loads_2021_Based_on_2018_Weather.csv".
 
+## Citations
+Any use of this data in a publication, presentation, or report should use the following citations. Please contact 
+Casey Burleyson (casey.burleyson@pnnl.gov) prior to any reuse of the data.
+>
+Citation for the TELL model: McGrath et al., (2022). tell: a Python package to model future total electricity loads in the United States. Journal of Open Source Software, 7(79), 4472, https://doi.org/10.21105/joss.04472
+
+
 ## Notes
 1) Loads in CISO, IPCO, NEVP, and PACE are modeled as a whole in TELL but are separated in GridView. To create the data
 for these BAs I used the whole load simulated by TELL and distributed it to the subregions within the BA using the 
